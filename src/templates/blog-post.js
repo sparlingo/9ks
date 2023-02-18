@@ -51,7 +51,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                     }
                     paragraphProps={{ additionalClasses: ['font-light'] }}
                 />
-                <BlogPostAuthor authorName=" John Doe" additionalClass={['py-5']} />
+                <BlogPostAuthor authorName="Kevin Sparling" additionalClass={['py-5']} />
             </div>
             <BlogPostNavigation
                 additionalClass={['mt-3']}

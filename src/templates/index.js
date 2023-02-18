@@ -17,9 +17,7 @@ const IndexPage = ({ data, pageContext }) => {
                     content={data.site.siteMetadata.description}
                 />
             </Helmet>
-            <Announcement content="This is the Blog where you can find any kind of information and rich media content.
-Use it for your needs, add content and customize in any way"
-            />
+            <Announcement content="This site is for Shenzhen QSI, homeroom 9KS" />
             <BlogCards posts={posts} />
             <Pagination page={pageContext.currentPage} numOfPages={pageContext.numPages} rounded="md" />
         </Layout>
