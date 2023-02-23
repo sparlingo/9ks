@@ -48,6 +48,7 @@ module.exports = {
                     '_media',
                     '_tag',
                     'blogpost',
+                    'student',
                 ],
             },
         },

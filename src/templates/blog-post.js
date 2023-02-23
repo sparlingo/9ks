@@ -51,7 +51,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                     }
                     paragraphProps={{ additionalClasses: ['font-light'] }}
                 />
-                <BlogPostAuthor authorName="Kevin Sparling" additionalClass={['py-5']} />
+                <BlogPostAuthor authorName={data.blogpost.student.firstname} additionalClass={['py-5']} />
             </div>
             <BlogPostNavigation
                 additionalClass={['mt-3']}
@@ -138,6 +138,11 @@ export const pageQuery = graphql`
                     }
                     type
                 }
+            }
+            student {
+                firstname
+                lastname
+                id
             }
         }
     }
