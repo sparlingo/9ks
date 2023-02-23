@@ -36,7 +36,7 @@ const Header = () => (
                             </div>
                         </div>
                         <div className="hidden md:flex items-center justify-center w-full">
-                            <h1 className="text-3xl">QSI Shenzhen - 9KS Homeroom</h1>
+                            <h1 className="text-3xl">Here is our best work. We are proud of this.</h1>
                         </div>
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
